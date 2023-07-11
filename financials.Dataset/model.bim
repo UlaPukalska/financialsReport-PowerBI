@@ -292,6 +292,19 @@
           }
         ],
         "lineageTag": "b833607d-0ee7-4fea-8597-bf041cc45fb2",
+        "measures": [
+          {
+            "name": "Total Sales",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "sum(financials[Sales])",
+            "lineageTag": "1c82f4f7-a5b8-49b6-93b8-d608686bc23d"
+          }
+        ],
         "partitions": [
           {
             "name": "financials-2f251cd5-4e68-4676-a026-e996eac7fa89",
